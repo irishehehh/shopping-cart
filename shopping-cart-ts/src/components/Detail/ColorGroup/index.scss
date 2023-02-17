@@ -1,0 +1,28 @@
+.btn-group {
+   
+    .color-selector{
+      font-size: 18px;
+      margin-top: 18px;
+      margin-bottom: 10px;
+    }
+  .btn-title {
+    font-size: .16rem;
+    padding: 0.1rem 0;
+  }
+
+  .radio-btn {
+    display: inline-block;
+    border: 0.01rem solid #f40;
+    border-radius: .05rem;
+    font-size: .13rem;
+    color: #f40;
+    background-color: #fff;
+    padding: .03rem;
+    margin: .02rem .1rem 0 0;
+
+    &.current {
+      background-color: #f40;
+      color: #fff;
+    }
+  }
+}
